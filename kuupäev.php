@@ -23,9 +23,10 @@
     }elseif($day == "Sunday"){
       $day = "Pühapäev";
     }
-    echo "" . date("d/m/Y");
+    echo "Kuupäev: " . date("d/m/Y");
+    echo " $day" . "<br>";
     date_default_timezone_set("Europe/Tallinn");
-    echo " " . date("H:i");
+    echo "Kellaaeg: " . date("H:i");
     ?>
   </body>
 </html>
